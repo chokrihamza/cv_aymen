@@ -1,0 +1,511 @@
+%-------------------------
+% Resume in Latex
+% Author : Aras Gungore
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{qrcode}
+\usepackage{textcomp} % For copyright symbol
+\usepackage{eso-pic}
+\usepackage{graphicx}
+\usepackage{eso-pic}
+\usepackage[absolute]{textpos}
+\pagestyle{fancy}
+\input{glyphtounicode}
+
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+
+\thispagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%-----------Phantom text -----------
+{\color{white}\phantom{Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince Data Science ERP GIT Lean Manufacturing Production methods process minimization java php js css html react angular docker aws cloud iot quality maintenance math statistics probability nlp nltk social networking linux unix AI bert security engineering wire mechanical design red hat black belt yellow belt green leadership motivation challenge project management manager pmp prince  }}
+{\color{white}\phantom{This is white text without space.}}
+%---------- HEADING ----------
+
+\begin{center}
+
+ \AddToShipoutPictureBG*{%
+  \AtPageUpperLeft{%
+    \hspace{\paperwidth}%
+    \raisebox{-\baselineskip}{%
+      \makebox[0pt][r]{\quad
+\qrcode[height=1cm]{https://www.linkedin.com/in/hamza-chokri/}
+\qquad}
+}}}%
+
+}}
+
+
+
+\begin{minipage}{0.9\textwidth}
+\centering
+
+   
+    \textbf{\Huge \scshape Curriculum Vitae Hamza Chokri \small\textcopyright} \\ \vspace{3pt}
+     \small
+     \textbf{\Huge \scshape \textit{\small {\textcolor{blue}{Ingénieur Industriel }\& \textcolor{blue}{Master en Informatique de gestion et IA } }}} \\ \vspace{3pt}
+    \small
+    \small
+    \faMobile \hspace{.5pt} \href{tel:+21642537170}{+21620099819|+21642537170 }
+    $|$
+    \faAt \hspace{.5pt} \href{mailto:chokrihamza.ia@gmail.com}{chokrihamza.ia@gmail.com }
+    $|$
+    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/hamzachokri}{LinkedIn}
+    $|$
+    \faGithub \hspace{.5pt} \href{https://github.com/chokrihamza/}{GitHub}
+    $|$
+    \faMapMarker \hspace{.5pt} \href{https://www.google.com/maps/place/Tunis/@36.794992,10.0608772,12z/data=!3m1!4b1!4m6!3m5!1s0x12fd337f5e7ef543:0xd671924e714a0275!8m2!3d36.8064948!4d10.1815316!16zL20vMGZ0bjg}{Tunis, Tunisie}
+    \faCar{License B} 
+    \end{minipage}
+\end{center}
+\end{center}
+
+
+
+%----------- EDUCATION -----------
+\section{Notre rêve}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        Imaginez un monde où nos industries sont imprégnées de systèmes intelligents capables d'apprendre, de s'adapter et de optimiser leurs opérations.En tirant parti de l'apprentissage automatique et de l'apprentissage par renforcement, nous pouvons améliorer la prise de décision, automatiser les tâches de routine, optimiser l'allocation des ressources et améliorer l'efficacité globale des processus.\\
+        \textit{Mon rêve est de voir un avenir où chaque domaine industriel exploite la puissance de l'apprentissage automatique et par renforcement apprendre à maximiser la productivité et l'efficacité. En tirant parti de la prise de décision basée sur les données, de l'automatisation et de l'apprentissage, nous pouvons transformer les industries, créer une croissance durable et ouvrir de nouvelles opportunités. Travaillons ensemble pour faire de ce rêve une réalité..} \\ \vspace{3pt}
+        
+    
+    }}
+
+    
+  \resumeSubHeadingListEnd
+\section{Éducation}
+ \vspace{3pt}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {Business Computing \& Intelligence Artificielle (Master)}{Tunis\textbf{,} Tunisie}
+      {Institut Supérieur de Gestion de Tunis \textbf{ Moyenne: 15.79/20}
+}{Sep 2021 \textbf{--} en cours}
+        \resumeItemListStart
+            \resumeItem{Assistant de recherche : Université Allemande de Technologie à Oman.}
+        \resumeItemListEnd
+    
+    \resumeSubheading
+      {Ingénieur Industriel (Diplôme d'Ingénieur) }{Tunis, Tunisie}
+      {L'Ecole Nationale Supérieure d'Ingénieurs de Tunis\textbf{ Moyenne: 14.5/20}
+}{Sep 2015 \textbf{--} Dec 2018}
+        \resumeItemListStart
+            \resumeItem{Élève ingénieur industriel}
+            
+        \resumeItemListEnd
+    \resumeSubheading
+      {Diplôme Préparatoire Physique Chimie}{Gabes, Tunisie}
+      {L'Institut Préparatoire aux Etudes d'Ingénieurs
+}{Sep 2013 \textbf{--} Jul 2015}
+
+    \resumeSubheading
+      {Diplôme du Baccalauréat}{Gafsa, Tunisie}
+      {Lycée Ibn Khaldoun
+}{2013}
+        \resumeItemListStart
+            \resumeItem{J'ai obtenu un baccalauréat en mathématiques.}
+        \resumeItemListEnd
+      
+  
+      
+    
+  \resumeSubHeadingListEnd
+
+
+
+%----------- RESEARCH EXPERIENCE -----------
+
+\section{Expérience professionnelle
+}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {Gestion de la qualité|Sartex Goup}{Monastir\textbf{-}Tunisie}
+      {\textbf Responsable Audit Qualité }{Mar 2021 \textbf{--} Dec 2021}
+        \resumeItemListStart
+            \resumeItem{Chef de projet : Intégration d'un module d'aide à la décision de mesure.}
+            \resumeItem{Identifier les besoins et les exigences des clients et définir les procédures, les instructions et les méthodes de travail liées au contrôle des produits.}
+            
+        \resumeItemListEnd
+    
+    \resumeSubheading
+      {}{Monastir, Tunisie}
+      {\textbf Ingénieur Qualité}{Jan 2019}
+        \resumeItemListStart
+            \resumeItem{Participer à des projets d'amélioration continue.}
+            \resumeItem{Analyser les sources de Non-Qualité et des risques de mesure.}
+            \resumeItem{Gestion des indicateurs et du tableau de bord qualité des produits internes et des sous-traitants.}
+            
+        \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {Amélioration continue
+|Prysmian Group
+}{Nabeul\textbf{-}Tunisie}
+      {\textbf Ingénieur Industriel Stagiaire}{Feb 2018 \textbf{--} Sep 2018}
+        \resumeItemListStart
+            \resumeItem{Etude et amélioration de la productivité d'une ligne de production de fibre optique.}
+            \resumeItem{Conception et développement d'une application de bureau pour suivre l'efficacité globale de l'équipement (TRS).}
+            \resumeItem{Mots clés:Lean Manufacturing ,Delphi ,SQL}
+
+        \resumeItemListEnd
+    
+    \resumeSubheading
+      {}{Nabeul, Tunisie}
+      {\textbf Stage ingénieur industriel}{Jun. 2017 – Jul 2017
+}
+        \resumeItemListStart
+            \resumeItem{Mesure d'indicateurs de performance d'une ligne de production et mise en place d'un tableau de bord de maintenance.}
+            \resumeItem{Mots clés: Visual Basic .NET}
+            
+        \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+
+
+%----------- WORK EXPERIENCE -----------
+
+\section{Experience de recherche}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    
+    \resumeSubheading
+      {Apprentissage par Renforcement – Assistant de Recherche}{Tunis,Oman , Tunisie}
+      {Institut de Management : ISG Tunis \& Université Allemande de Technologie à Oman : GUtech}{Feb. 2023 \textbf{--} en cours}
+        \resumeItemListStart
+            \resumeItem{Conseillères : Prof . Dr . Lamjed Ben Said \& Dr .Lilia Rejeb}
+            \resumeItem{Développement d'un system d'apprentissage par renforcement pour éviter les embouteillages sur les routes urbaines.}
+            \resumeItem{Mots clés : SUMO , Traci , Python , Deep Learning , OpenAI Gym , Tensorflow.}
+        \resumeItemListEnd
+
+
+    
+       
+    % \resumeSubheading
+      % {Ankara Metropolitan Municipality}{Ankara, Turkey}
+      % {SCADA Engineering Intern}{Aug 2021 \textbf{--} Sep 2021}
+        % \resumeItemListStart
+            % \resumeItem{Designed GSM/GPRS-based electrical control panels that are connected to local water pump automation systems. Pump station panels use digital output data received from the SCADA control center via RF transmission to control valves and pumps. Tank station panels are charged from the PV system and refill water tanks by signaling the pump station panel when the float switch is activated.}
+            % \resumeItem{Implemented motor control circuits by reading their PLC ladder diagrams and analyzed the EPLAN project documentation, HMI, and hardware components of an RTU panel.}
+        % \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+%----------- Web dev EXPERIENCE -----------
+\section{Expérience en développement Web \emph{\href{https://github.com/chokrihamza/buy_sell_connect_rate_products_online}{\color{blue}GitHub}}{}}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    
+    \resumeSubheading
+      {Développeur Js Full Stack
+}{Tunis , Tunisie}
+      {GoMyCode
+}{Sep. 2020 \textbf{--} Jan 2021 }
+        \resumeItemListStart
+            \resumeItem{La tâche à accomplir est de développer une application web spécialement conçue pour la vente en ligne de produits alimentaires. Cela implique la création d'une plate-forme numérique où les utilisateurs peuvent explorer une variété de produits alimentaires et effectuer des achats de manière pratique.
+            \resumeItem{Mots clés : React js, Express, Mongoose, MongoDB,JWT,OAuth2.0,Push notifications, BootStrap, Adminbro.
+}
+}
+        \resumeItemListEnd
+    
+    % \resumeSubheading
+      % {Ankara Metropolitan Municipality}{Ankara, Turkey}
+      % {SCADA Engineering Intern}{Aug 2021 \textbf{--} Sep 2021}
+        % \resumeItemListStart
+            % \resumeItem{Designed GSM/GPRS-based electrical control panels that are connected to local water pump automation systems. Pump station panels use digital output data received from the SCADA control center via RF transmission to control valves and pumps. Tank station panels are charged from the PV system and refill water tanks by signaling the pump station panel when the float switch is activated.}
+            % \resumeItem{Implemented motor control circuits by reading their PLC ladder diagrams and analyzed the EPLAN project documentation, HMI, and hardware components of an RTU panel.}
+        % \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+
+
+
+%----------- PROJECTS -----------
+
+\section{Projets}
+    \vspace{3pt}
+    \resumeSubHeadingListStart
+      
+      \resumeProjectHeading
+        {\textbf{Data Scraping } $|$ \emph{\href{https://github.com/chokrihamza/API-scrape-data-about-companies}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{Application spécialement conçue pour récupérer des données sur les entreprises. Cette application utilise des techniques avancées de grattage Web pour extraire des informations précieuses de diverses sources.}
+            \resumeItem{Environnement technique \& Outils : PHP , Java ,Jasper,Node.js, WordPress
+.}
+          \resumeItemListEnd
+      
+      \resumeProjectHeading
+        {\textbf{Apprentissage automatique } $|$ \emph{\href{https://github.com/chokrihamza/Implementation-on-CN2-machine-learning-}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{Référentiel open source d'algorithmes d'apprentissage supervisé (Baies naïves, algorithmes d'induction de règles, arbres de décision).}
+            \resumeItem{Environnement technique \& Outils : Jupyter notebook , python , NumPy, pandas, sklearn.}
+          \resumeItemListEnd
+      
+      \resumeProjectHeading
+        {\textbf{Data Mobility } $|$ \emph{\href{https://github.com/chokrihamza/Projetc-Human-Mobility-Analysis}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{Référentiel open source pour l'analyse et la simulation de la mobilité humaine avec Python .}
+            \resumeItem{Environnement technique \& Outils: Python, Jupyter notebook , Scikit mobility , NumPy , geopandas.}
+          \resumeItemListEnd
+      
+      \resumeProjectHeading
+        {\textbf{Systèmes flous \& Clustering} $|$ \emph{\href{https://github.com/chokrihamza/C-means-clustering}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{Test et implémentation du C-means Clustering.}
+            \resumeItem{Environnement technique \& Outils : Jupyter notebook ,python, NumPy ,pandas, sklearn , matplotlib , skfuzzy.}
+          \resumeItemListEnd
+      
+      \resumeProjectHeading
+        {\textbf{Fouille de text} $|$ \emph{\href{https://github.com/chokrihamza/text-mining-word-embedding-project}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{Comparer les techniques de word embeddings word2vec , FastText , Glove and BERT
+.}
+            \resumeItem{Environnement technique \& Outils: Python, Jupyter notebook ,Gensim.}
+          \resumeItemListEnd
+      
+    \resumeSubHeadingListEnd
+
+
+
+%----------- SKILLS -----------
+
+\section{Compétences en génie industriel
+}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Techniques d'amélioration continue :}{ Kaizen , Six sigma , PDCA, AMDEC, Lean manufacturing, Manufacturing process management , SWOT
+} \\ \vspace{3pt}
+        
+        \textbf{Méthode de résolution de problèmes :}{ Brainstorming, Pareto,Ishikawa,5 pourquoi , 8D} \\ \vspace{3pt}
+        
+        \textbf{Logiciel de conception mécanique \& simulation : }{ Catia , Ms Project , Arena , TIA Portal , Matlab}
+        
+        % \textbf{Frameworks}{: X, X, X} \\
+        % \textbf{Developer Tools}{: X, X, X} \\
+        % \textbf{Libraries}{: X, X, X} \\
+        % \textbf{Applications}{: X, X, X}
+    }}
+  \resumeSubHeadingListEnd
+
+%----------- SKILLS -----------
+
+\section{Compétences techniques}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Langages de programmation:}{ Python , JavaScript , C/C++, Java, PHP
+} \\ \vspace{3pt}
+        
+        \textbf{Outils \& Autres:}{ Pandas, NumPy, Matplotlib, Git, TensorFlow , React , Redux , Node.js , Cplex, LATEX, VS Code,Data warehouse ,ERP , Dig Data , SGBD (MySQL,MongoDB,CouchDB) ,Docker} \\ \vspace{3pt}
+         \textbf{Langues:}{Arabe (Natif) , Anglais (Courant) , Français (Courant)
+} \\ \vspace{3pt}
+        
+        % \textbf{Frameworks}{: X, X, X} \\
+        % \textbf{Developer Tools}{: X, X, X} \\
+        % \textbf{Libraries}{: X, X, X} \\
+        % \textbf{Applications}{: X, X, X}
+    }}
+  \resumeSubHeadingListEnd
+%----------- SKILLS -----------
+
+\section{Certificats}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Langages de programmation :}{ Développeur Full Stack Js (MERN Stack)
+} \\ \vspace{3pt}
+        
+        \textbf{Management de la Qualité \& Leadership}{ Audit interne qualité ISO 9001 , Analyse SWOT , Lean Management , Motivation et animation des équipes} \\ \vspace{3pt}
+        
+       
+        
+        % \textbf{Frameworks}{: X, X, X} \\
+        % \textbf{Developer Tools}{: X, X, X} \\
+        % \textbf{Libraries}{: X, X, X} \\
+        % \textbf{Applications}{: X, X, X}
+    }}
+  \resumeSubHeadingListEnd
+
+
+  \resumeSubHeadingListEnd
+
+%----------- RELEVANT COURSEWORK -----------
+
+
+
+
+
+%----------- CERTIFICATES -----------
+
+% \section{Certificates}
+  % \resumeSubHeadingListStart
+    
+    % \resumeOrganizationHeading
+      % {Procter \& Gamble VIA Certificate Program}{Feb 2022}{Business Skills, Data and Digital Skills, Project Management and Personal Productivity}
+    
+  % \resumeSubHeadingListEnd
+
+
+
+%----------- ORGANIZATIONS -----------
+
+% \section{Organizations}
+  % \resumeSubHeadingListStart
+    
+    % \resumeOrganizationHeading
+      % {Institute of Electrical and Electronics Engineers (IEEE)}{Feb 2022 -- Present}{Student Member}
+    
+  % \resumeSubHeadingListEnd
+
+
+
+%----------- HOBBIES -----------
+
+% \section{Hobbies}
+  % \resumeSubHeadingListStart
+    % \small{\item{Swimming, Fitness, Eight-ball}}
+  % \resumeSubHeadingListEnd
+
+
+
+%----------- REFERENCES -----------
+
+% \section{References}
+  % \resumeSubHeadingListStart
+    
+  % \resumeSubHeadingListEnd
+
+%----------- phanto text  -----------  
+
+
+%-------------------------------------------
+\end{document}
